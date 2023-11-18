@@ -10,7 +10,7 @@ export default function About(props) {
 
   return (
     <div style={{ color: props.mode === "dark" ? "white" : "black" }}>
-      <h1 className="my-3 mx-5">About Us</h1>
+      <h1 className="my-3 mx-5">About</h1>
       <div className="accordion mx-4" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header">
