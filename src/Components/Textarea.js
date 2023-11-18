@@ -64,7 +64,7 @@ export default function Textarea(props) {
             rows="8"
             placeholder="Enter text here"
             style={{
-              backgroundColor: props.mode === "light" ? "white" : "rgb(15 12 28)",
+              backgroundColor: props.mode === "light" ? "white" : "rgb(29, 22, 52)",
               color: props.mode === "light" ? "black" : "white",
             }}
           ></textarea>
