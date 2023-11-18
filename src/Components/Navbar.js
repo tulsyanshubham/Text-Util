@@ -1,8 +1,22 @@
-import React from "react";
+import React , { useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
+
+  const [homeActive, setHomeActive] = useState("active");
+  const [aboutActive, setAboutActive] = useState("");
+
+  const onClick1 = () => {
+    setHomeActive('active');
+    setAboutActive('');
+  }
+
+  const onClick2 = () => {
+    setHomeActive('');
+    setAboutActive('active');
+  }
+
   return (
     <nav className={`navbar navbar-expand-lg bg-${props.mode} navbar-${props.mode}`}>
       <div className="container-fluid">
@@ -23,12 +37,12 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/Text-Util">
+              <Link className={`nav-link ${homeActive}`} aria-current="page" to="/Text-Util" onClick={onClick1}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Text-Util/about">
+              <Link className={`nav-link ${aboutActive}`} to="/Text-Util/about" onClick={onClick2}>
                 About
               </Link>
             </li>

@@ -75,14 +75,14 @@ export default function Textarea(props) {
         <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>
           Convert to LowerCase
         </button>
-        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleClear}>
-          Clear
+        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpace}>
+          Remove Extra Space
         </button>
         <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>
           Copy Text
         </button>
-        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpace}>
-          Remove Extra Space
+        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleClear}>
+          Clear
         </button>
       </div>
       <div

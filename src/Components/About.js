@@ -33,30 +33,12 @@ export default function About(props) {
             style={myStyle}
           >
             <div className="accordion-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perspiciatis fugiat dolores aliquam natus aspernatur magni esse
-              dolore ullam iste, cum quos recusandae soluta, ducimus,
-              repellendus ipsam dolor enim maxime quibusdam in. Repellendus
-              dolor excepturi tempora autem, quas voluptas vitae quos eius quam,
-              totam mollitia, quaerat non deleniti maxime explicabo? Earum
-              soluta minima delectus eos odio distinctio magni totam quae
-              voluptates sequi alias adipisci, id nisi laboriosam amet nam cum
-              accusamus corrupti! Consequuntur fuga veniam eveniet dolorem,
-              laudantium eligendi magni sequi maxime iure labore, dolore culpa
-              omnis fugiat laboriosam voluptates eaque eos suscipit molestias
-              nulla. Blanditiis eos dolore et exercitationem adipisci nihil
-              molestiae possimus repellendus ducimus maiores accusamus repellat,
-              voluptas sunt praesentium unde corrupti voluptates, rerum,
-              excepturi odit! Quisquam temporibus cum eaque minus laboriosam et
-              reiciendis possimus ipsam id, accusantium corrupti aut quaerat
-              consectetur magnam culpa fuga eum repellat quod corporis cumque
-              quis facere vero incidunt! Recusandae modi error veniam,
-              consequatur doloribus ratione id alias maiores atque magnam natus
-              nam eius suscipit iusto odio neque est consequuntur, hic iure
-              voluptatem quibusdam ab molestiae veritatis? Totam, repellat fuga
-              ipsam illo corrupti adipisci perspiciatis sapiente velit. Dolor
-              cum porro eum accusamus, facilis autem, eaque velit ipsam
-              accusantium, repellat quisquam ab pariatur minus iusto!
+              You can analyze your text in different formats. This webpage will give you:
+              <ul>
+                <li>Total number of Words</li>
+                <li>Total number of Characters</li>
+                <li>Preview Text</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -81,30 +63,12 @@ export default function About(props) {
             style={myStyle}
           >
             <div className="accordion-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perspiciatis fugiat dolores aliquam natus aspernatur magni esse
-              dolore ullam iste, cum quos recusandae soluta, ducimus,
-              repellendus ipsam dolor enim maxime quibusdam in. Repellendus
-              dolor excepturi tempora autem, quas voluptas vitae quos eius quam,
-              totam mollitia, quaerat non deleniti maxime explicabo? Earum
-              soluta minima delectus eos odio distinctio magni totam quae
-              voluptates sequi alias adipisci, id nisi laboriosam amet nam cum
-              accusamus corrupti! Consequuntur fuga veniam eveniet dolorem,
-              laudantium eligendi magni sequi maxime iure labore, dolore culpa
-              omnis fugiat laboriosam voluptates eaque eos suscipit molestias
-              nulla. Blanditiis eos dolore et exercitationem adipisci nihil
-              molestiae possimus repellendus ducimus maiores accusamus repellat,
-              voluptas sunt praesentium unde corrupti voluptates, rerum,
-              excepturi odit! Quisquam temporibus cum eaque minus laboriosam et
-              reiciendis possimus ipsam id, accusantium corrupti aut quaerat
-              consectetur magnam culpa fuga eum repellat quod corporis cumque
-              quis facere vero incidunt! Recusandae modi error veniam,
-              consequatur doloribus ratione id alias maiores atque magnam natus
-              nam eius suscipit iusto odio neque est consequuntur, hic iure
-              voluptatem quibusdam ab molestiae veritatis? Totam, repellat fuga
-              ipsam illo corrupti adipisci perspiciatis sapiente velit. Dolor
-              cum porro eum accusamus, facilis autem, eaque velit ipsam
-              accusantium, repellat quisquam ab pariatur minus iusto!
+              There are a few advantages to using a free website:
+              <ul>
+                <li><i>Cost-effectiveness:</i> You don't need to pay for hosting services or any hidden fees.</li>
+                <li><i>Ease of setup:</i> Free hosting platforms often have user-friendly website builders and templates.</li>
+                <li><i>No coding knowledge required:</i> Many free templates can be used without any coding knowledge.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -129,30 +93,13 @@ export default function About(props) {
             style={myStyle}
           >
             <div className="accordion-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perspiciatis fugiat dolores aliquam natus aspernatur magni esse
-              dolore ullam iste, cum quos recusandae soluta, ducimus,
-              repellendus ipsam dolor enim maxime quibusdam in. Repellendus
-              dolor excepturi tempora autem, quas voluptas vitae quos eius quam,
-              totam mollitia, quaerat non deleniti maxime explicabo? Earum
-              soluta minima delectus eos odio distinctio magni totam quae
-              voluptates sequi alias adipisci, id nisi laboriosam amet nam cum
-              accusamus corrupti! Consequuntur fuga veniam eveniet dolorem,
-              laudantium eligendi magni sequi maxime iure labore, dolore culpa
-              omnis fugiat laboriosam voluptates eaque eos suscipit molestias
-              nulla. Blanditiis eos dolore et exercitationem adipisci nihil
-              molestiae possimus repellendus ducimus maiores accusamus repellat,
-              voluptas sunt praesentium unde corrupti voluptates, rerum,
-              excepturi odit! Quisquam temporibus cum eaque minus laboriosam et
-              reiciendis possimus ipsam id, accusantium corrupti aut quaerat
-              consectetur magnam culpa fuga eum repellat quod corporis cumque
-              quis facere vero incidunt! Recusandae modi error veniam,
-              consequatur doloribus ratione id alias maiores atque magnam natus
-              nam eius suscipit iusto odio neque est consequuntur, hic iure
-              voluptatem quibusdam ab molestiae veritatis? Totam, repellat fuga
-              ipsam illo corrupti adipisci perspiciatis sapiente velit. Dolor
-              cum porro eum accusamus, facilis autem, eaque velit ipsam
-              accusantium, repellat quisquam ab pariatur minus iusto!
+              This program is capable of following functions
+              <ul>
+                <li><i>Convert to UpperCase:</i> It will convert all the Characters in textarea to Upper-case</li>
+                <li><i>Convert to LowerCase:</i> It will convert all the Characters in textarea to Lower-case</li>
+                <li><i>Remove Extra Space:</i> It will remove all the extra spaces from the text file</li>
+                <li><i>Copy Text:</i> It will copy the text present in the textarea to your clipboared</li>
+              </ul>
             </div>
           </div>
         </div>
