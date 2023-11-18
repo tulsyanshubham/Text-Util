@@ -69,19 +69,19 @@ export default function Textarea(props) {
             }}
           ></textarea>
         </div>
-        <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>
+        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>
           Convert to UpperCase
         </button>
-        <button className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>
+        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>
           Convert to LowerCase
         </button>
-        <button className="btn btn-primary mx-1 my-1" onClick={handleClear}>
+        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleClear}>
           Clear
         </button>
-        <button className="btn btn-primary mx-1 my-1" onClick={handleCopy}>
+        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>
           Copy Text
         </button>
-        <button className="btn btn-primary mx-1 my-1" onClick={handleExtraSpace}>
+        <button disabled = {text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpace}>
           Remove Extra Space
         </button>
       </div>
@@ -96,7 +96,7 @@ export default function Textarea(props) {
         </p>
         <p>Expected reading time: {0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} minutes</p>
         <h2>Preview</h2>
-        <p>{text.length>0?text:'Enter something in the textbox to preview it here.'}</p>
+        <p>{text.length>0?text:'Nothing to Preview'}</p>
       </div>
     </>
   );
