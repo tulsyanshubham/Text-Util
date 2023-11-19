@@ -1,0 +1,6 @@
+.accordion-button::after {
+    filter: invert(1);
+}
+.form-control::placeholder{
+    color: rgb(39, 128, 128);
+}
