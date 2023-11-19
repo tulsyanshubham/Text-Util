@@ -1,7 +1,6 @@
 // import React, { useState } from "react";
 
 export default function About(props) {
-  // const [btnState, setBtnState] = useState("Enable Dark Mode");
 
   let myStyle = {
     color: props.mode === "dark" ? "white" : "black",
@@ -104,19 +103,6 @@ export default function About(props) {
           </div>
         </div>
       </div>
-      {/* <div className="form-check form-switch">
-        <input
-          className="form-check-input mx-2 my-2"
-          type="checkbox"
-          role="switch"
-          id="flexSwitchCheckDefault"
-          onClick={toggleStyle}
-          // onClick={props.toggleMode}
-        />
-        <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
-          {btnState}
-        </label>
-      </div> */}
     </div>
   );
 }

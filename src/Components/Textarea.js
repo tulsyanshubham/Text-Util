@@ -3,7 +3,6 @@ import React, { useState } from "react";
 export default function Textarea(props) {
 
   const handleUpClick = () => {
-    // console.log("UpperCase: " + text);
     let newText = text.toUpperCase();
     setText(newText);
     props.showAlert("Text Converted to Uppercase","success")
@@ -16,9 +15,7 @@ export default function Textarea(props) {
   };
 
   const handleOnChange = (event) => {
-    // console.log("Change Handled");
     setText(event.target.value);
-    // console.log(event.target.value);
   };
 
   const handleClear = () => {
@@ -45,7 +42,6 @@ export default function Textarea(props) {
   };
 
   const [text, setText] = useState("");
-  // setText("New Text"); // to change state
 
   return (
     <>
@@ -92,7 +88,7 @@ export default function Textarea(props) {
       >
         <h2>Text Summary</h2>
         <p>
-          Words: {text.split(" ").filter((element)=>{return element.length!==0}).length} and Characters: {text.length}
+          Words: {text.split(/\s+/).filter((element)=>{return element.length!==0}).length} and Characters: {text.length}
         </p>
         <p>Expected reading time: {0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} minutes</p>
         <h2>Preview</h2>
